@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-20T05:23:01Z" name="Suite" finished-at="2022-05-20T05:23:23Z" duration-ms="21537">
+    <groups>
+    </groups>
+    <test started-at="2022-05-20T05:23:01Z" name="Test" finished-at="2022-05-20T05:23:23Z" duration-ms="21537">
+      <class name="com.theGameAPI.test.RegressionTest">
+        <test-method signature="getUserByName()[pri:0, instance:com.theGameAPI.test.RegressionTest@352c1b98]" started-at="2022-05-20T05:23:01Z" name="getUserByName" finished-at="2022-05-20T05:23:09Z" duration-ms="7707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserByName -->
+        <test-method signature="getUsers()[pri:0, instance:com.theGameAPI.test.RegressionTest@352c1b98]" started-at="2022-05-20T05:23:09Z" name="getUsers" finished-at="2022-05-20T05:23:10Z" duration-ms="1520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsers -->
+        <test-method signature="reRegisterUser()[pri:0, instance:com.theGameAPI.test.RegressionTest@352c1b98]" started-at="2022-05-20T05:23:10Z" name="reRegisterUser" finished-at="2022-05-20T05:23:13Z" duration-ms="2365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reRegisterUser -->
+        <test-method signature="registerUser()[pri:0, instance:com.theGameAPI.test.RegressionTest@352c1b98]" started-at="2022-05-20T05:23:13Z" name="registerUser" finished-at="2022-05-20T05:23:16Z" duration-ms="2945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method signature="userLoginIncorrectPassword()[pri:0, instance:com.theGameAPI.test.RegressionTest@352c1b98]" started-at="2022-05-20T05:23:16Z" name="userLoginIncorrectPassword" finished-at="2022-05-20T05:23:17Z" duration-ms="1750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginIncorrectPassword -->
+        <test-method signature="userLogin()[pri:0, instance:com.theGameAPI.test.RegressionTest@352c1b98]" started-at="2022-05-20T05:23:17Z" name="userLogin" finished-at="2022-05-20T05:23:19Z" duration-ms="1708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method signature="addUser()[pri:0, instance:com.theGameAPI.test.RegressionTest@352c1b98]" started-at="2022-05-20T05:23:19Z" name="addUser" finished-at="2022-05-20T05:23:21Z" depends-on-methods="com.theGameAPI.test.RegressionTest.registerUser" duration-ms="1751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+        <test-method signature="updateUser()[pri:0, instance:com.theGameAPI.test.RegressionTest@352c1b98]" started-at="2022-05-20T05:23:21Z" name="updateUser" finished-at="2022-05-20T05:23:23Z" depends-on-methods="com.theGameAPI.test.RegressionTest.addUser" duration-ms="1727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+      </class> <!-- com.theGameAPI.test.RegressionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
